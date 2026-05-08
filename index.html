@@ -5,80 +5,80 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>BSI School Explorer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;font-family:'DM Sans',sans-serif;background:#f0ede6;color:#1a1a1a}
+html,body{height:100%;font-family:'Barlow',sans-serif;background:#f0ede6;color:#1a1a1a}
  
 /* HEADER */
-.hdr{background:#0a2a2a;height:48px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200}
-.hdr-logo{font-family:'DM Mono',monospace;color:#5dcaa5;font-size:12px;letter-spacing:.08em}
-.hdr-back{display:none;background:transparent;border:.5px solid #2a5a4a;color:#5dcaa5;padding:5px 12px;border-radius:4px;font-size:11px;cursor:pointer;font-family:'DM Sans',sans-serif}
-.hdr-back:hover{background:#1a3a2a}
+.hdr{background:#003C60;height:48px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200}
+.hdr-logo{font-family:'Barlow Condensed',sans-serif;color:#17B0E6;font-size:12px;letter-spacing:.08em}
+.hdr-back{display:none;background:transparent;border:.5px solid #1a5a8a;color:#17B0E6;padding:5px 12px;border-radius:4px;font-size:11px;cursor:pointer;font-family:'Barlow',sans-serif}
+.hdr-back:hover{background:#002952}
  
 /* INDEX */
 .idx-hero{padding:28px 20px 16px;text-align:center}
-.idx-tag{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#1d9e75;margin-bottom:8px}
-.idx-title{font-size:22px;font-weight:500;color:#0a2a2a;margin-bottom:6px}
+.idx-tag{font-family:'Barlow Condensed',sans-serif;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#2B70B8;margin-bottom:8px}
+.idx-title{font-size:22px;font-weight:500;color:#003C60;margin-bottom:6px}
 .idx-sub{font-size:13px;color:#666;max-width:560px;margin:0 auto;line-height:1.5}
 .s-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;padding:16px 20px 48px;max-width:1020px;margin:0 auto}
 .s-card{background:#fff;border-radius:14px;border:.5px solid #e0ddd8;overflow:hidden;display:flex;flex-direction:column}
 .s-card-top{padding:14px 16px 10px;display:flex;align-items:flex-start;justify-content:space-between}
-.s-phase-tag{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border-radius:3px;display:inline-block;margin-bottom:5px}
-.s-name{font-size:15px;font-weight:500;color:#0a2a2a}
-.s-desc{font-size:11px;color:#888;margin-top:2px;font-family:'DM Mono',monospace}
+.s-phase-tag{font-family:'Barlow Condensed',sans-serif;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border-radius:3px;display:inline-block;margin-bottom:5px}
+.s-name{font-size:15px;font-weight:500;color:#003C60}
+.s-desc{font-size:11px;color:#888;margin-top:2px;font-family:'Barlow Condensed',sans-serif}
 .s-iso{flex-shrink:0;margin-left:8px}
 .s-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:0 16px 12px}
 .s-stat{background:#f7f5f0;border-radius:6px;padding:8px}
-.s-stat-lbl{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:2px}
-.s-stat-val{font-size:14px;font-weight:500;color:#0a2a2a}
+.s-stat-lbl{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#888;margin-bottom:2px}
+.s-stat-val{font-size:14px;font-weight:500;color:#003C60}
 .s-qr{padding:10px 16px;border-top:.5px solid #f0ede6;display:flex;align-items:center;gap:12px}
 .s-qr-info{flex:1}
-.s-qr-lbl{font-size:9px;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:#aaa;margin-bottom:2px}
-.s-qr-url{font-size:10px;color:#1d9e75;word-break:break-all;line-height:1.3}
-.s-btn{margin:0 16px 16px;padding:10px;background:#0a2a2a;color:#5dcaa5;border:none;border-radius:8px;font-size:13px;font-family:'DM Sans',sans-serif;cursor:pointer;font-weight:500;transition:background .15s}
-.s-btn:hover{background:#163a2a}
+.s-qr-lbl{font-size:9px;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#aaa;margin-bottom:2px}
+.s-qr-url{font-size:10px;color:#F36E22;word-break:break-all;line-height:1.3}
+.s-btn{margin:0 16px 16px;padding:10px;background:#003C60;color:#17B0E6;border:none;border-radius:8px;font-size:13px;font-family:'Barlow',sans-serif;cursor:pointer;font-weight:500;transition:background .15s}
+.s-btn:hover{background:#002952}
  
 /* DEMO LAYOUT */
 .demo-wrap{display:flex;height:calc(100vh - 48px);overflow:hidden}
 .plan-col{flex:1;display:flex;flex-direction:column;min-width:0}
 .demo-bar{padding:10px 16px;background:#fff;border-bottom:.5px solid #e8e5de;flex-shrink:0}
-.demo-bar-name{font-size:14px;font-weight:500;color:#0a2a2a}
-.demo-bar-sub{font-size:11px;color:#888;font-family:'DM Mono',monospace;margin-top:1px}
+.demo-bar-name{font-size:14px;font-weight:500;color:#003C60}
+.demo-bar-sub{font-size:11px;color:#888;font-family:'Barlow Condensed',sans-serif;margin-top:1px}
 .el-chips{padding:8px 14px;background:#fff;border-bottom:.5px solid #e8e5de;display:flex;flex-wrap:wrap;gap:5px;align-items:center;flex-shrink:0}
-.el-chip-group-label{font-size:9px;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:#bbb;padding:0 4px 0 0}
-.el-chip{display:flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;border:.5px solid #ddd;font-size:11px;cursor:pointer;background:#f8f5f0;color:#555;font-family:'DM Sans',sans-serif;transition:all .12s}
-.el-chip:hover{border-color:#1d9e75;color:#0f6e56}
-.el-chip.on{border-color:#1d9e75;background:#e1f5ee;color:#0f6e56;font-weight:500}
+.el-chip-group-label{font-size:9px;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#bbb;padding:0 4px 0 0}
+.el-chip{display:flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;border:.5px solid #ddd;font-size:11px;cursor:pointer;background:#f8f5f0;color:#555;font-family:'Barlow',sans-serif;transition:all .12s}
+.el-chip:hover{border-color:#F36E22;color:#c85810}
+.el-chip.on{border-color:#F36E22;background:#FEF0E3;color:#c85810;font-weight:500}
 .el-chip-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
-.el-chip-hint{font-size:10px;font-family:'DM Mono',monospace;color:#ccc;padding:0 6px;align-self:center}
+.el-chip-hint{font-size:10px;font-family:'Barlow Condensed',sans-serif;color:#ccc;padding:0 6px;align-self:center}
 .plan-canvas{flex:1;overflow:auto;display:flex;align-items:center;justify-content:center;padding:20px;background:#f0ede6}
 .plan-canvas svg{max-width:100%;height:auto;display:block}
  
 /* PROPS PANEL */
 .props-col{width:300px;background:#fff;border-left:.5px solid #e0ddd8;display:flex;flex-direction:column;flex-shrink:0}
 .pr-hdr{padding:14px 16px 10px;border-bottom:.5px solid #f0ede6;flex-shrink:0}
-.pr-hdr-tag{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#aaa;margin-bottom:4px}
-.pr-hdr-name{font-size:15px;font-weight:500;color:#0a2a2a;line-height:1.2}
+.pr-hdr-tag{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#aaa;margin-bottom:4px}
+.pr-hdr-name{font-size:15px;font-weight:500;color:#003C60;line-height:1.2}
  
 /* PROPS TABS */
 .pr-tabs{display:none;border-bottom:.5px solid #f0ede6;padding:0 12px;gap:2px;flex-shrink:0}
-.pr-tab{padding:8px 12px;font-size:12px;cursor:pointer;border:none;background:none;color:#888;border-bottom:2px solid transparent;margin-bottom:-.5px;font-family:'DM Sans',sans-serif;transition:all .12s;white-space:nowrap}
-.pr-tab:hover{color:#0a2a2a}
-.pr-tab.on{color:#1d9e75;border-bottom-color:#1d9e75;font-weight:500}
+.pr-tab{padding:8px 12px;font-size:12px;cursor:pointer;border:none;background:none;color:#888;border-bottom:2px solid transparent;margin-bottom:-.5px;font-family:'Barlow',sans-serif;transition:all .12s;white-space:nowrap}
+.pr-tab:hover{color:#003C60}
+.pr-tab.on{color:#F36E22;border-bottom-color:#F36E22;font-weight:500}
  
 .pr-empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;color:#bbb;font-size:13px;gap:12px;line-height:1.5}
 .pr-body{overflow-y:auto;padding:14px 16px;display:none}
 .pr-tab-pane{overflow-y:auto;padding:14px 16px;display:none;flex:1}
 .pr-row{margin-bottom:13px;padding-bottom:13px;border-bottom:.5px solid #f5f2ec}
 .pr-row:last-child{border-bottom:none;margin-bottom:0}
-.pr-lbl{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#aaa;margin-bottom:3px}
-.pr-val{font-size:13px;font-weight:500;color:#0a2a2a;line-height:1.3}
+.pr-lbl{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#aaa;margin-bottom:3px}
+.pr-val{font-size:13px;font-weight:500;color:#003C60;line-height:1.3}
 .pr-sub{font-size:11px;color:#888;margin-top:2px;line-height:1.4}
  
 /* CONDITION BADGES */
-.cbadge{display:inline-flex;align-items:center;padding:3px 9px;border-radius:4px;font-size:11px;font-weight:500;font-family:'DM Mono',monospace}
-.ca{background:#e8f5de;color:#276010}.cb{background:#eaf3de;color:#3b6d11}
+.cbadge{display:inline-flex;align-items:center;padding:3px 9px;border-radius:4px;font-size:11px;font-weight:500;font-family:'Barlow Condensed',sans-serif}
+.ca{background:#e8f5de;color:#276010}.cb{background:#FEF0E3;color:#c85810}
 .cc{background:#faeeda;color:#633806}.cd{background:#faece7;color:#4a1b0c}.ce{background:#fcebeb;color:#501313}
  
 /* ACTION BOXES */
@@ -90,68 +90,159 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:#f0ede6;color:
 /* SPACE INFO PANEL */
 .sp-metrics{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px}
 .sp-metric{background:#f7f5f0;border-radius:6px;padding:8px}
-.sp-metric-lbl{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:3px}
-.sp-metric-val{font-size:14px;font-weight:500;color:#0a2a2a;line-height:1.2}
-.sp-section-title{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#aaa;margin:14px 0 6px;display:block}
-.ref-code{font-family:'DM Mono',monospace;font-size:10px;background:#f0ede6;padding:2px 6px;border-radius:3px;color:#555;display:inline-block}
+.sp-metric-lbl{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#888;margin-bottom:3px}
+.sp-metric-val{font-size:14px;font-weight:500;color:#003C60;line-height:1.2}
+.sp-section-title{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#aaa;margin:14px 0 6px;display:block}
+.ref-code{font-family:'Courier New',monospace;font-size:10px;background:#f0ede6;padding:2px 6px;border-radius:3px;color:#555;display:inline-block}
  
 /* ELEMENT TABLE */
 .el-table{width:100%;font-size:11px;border-collapse:collapse;table-layout:fixed}
-.el-table th{text-align:left;padding:5px 6px;font-weight:500;font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:#888;border-bottom:.5px solid #f0ede6;background:#f7f5f0}
+.el-table th{text-align:left;padding:5px 6px;font-weight:500;font-size:9px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#888;border-bottom:.5px solid #f0ede6;background:#f7f5f0}
 .el-table td{padding:5px 6px;border-bottom:.5px solid #f5f2ec;color:#1a1a1a;vertical-align:top;word-break:break-word}
 .el-table tr:last-child td{border-bottom:none}
  
 /* ASSETS */
 .ast-row{padding:9px 0;border-bottom:.5px solid #f5f2ec;display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
 .ast-row:last-child{border-bottom:none}
-.ast-name{font-size:12px;font-weight:500;color:#0a2a2a}
+.ast-name{font-size:12px;font-weight:500;color:#003C60}
 .ast-meta{font-size:10px;color:#888;margin-top:2px;line-height:1.5}
 .ast-status{font-size:10px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0;margin-top:2px}
 .status-dot{width:6px;height:6px;border-radius:50%;display:inline-block;margin-right:4px}
-.sd-good{background:#1d9e75}.sd-warn{background:#ef9f27}.sd-alert{background:#e24b4a}
+.sd-good{background:#F36E22}.sd-warn{background:#ef9f27}.sd-alert{background:#e24b4a}
  
 /* CAFM */
-.cafm-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-family:'DM Mono',monospace;padding:3px 8px;border-radius:3px;margin-bottom:10px}
+.cafm-badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-family:'Barlow Condensed',sans-serif;padding:3px 8px;border-radius:3px;margin-bottom:10px}
 .cafm-badge-off{background:#f0ede6;color:#aaa;border:.5px solid #ddd}
-.cafm-badge-on{background:#e1f5ee;color:#0f6e56;border:.5px solid #9fe1cb}
+.cafm-badge-on{background:#FEF0E3;color:#c85810;border:.5px solid #F78F20}
 .cafm-prompt{background:#f7f5f0;border:.5px dashed #ccc;border-radius:6px;padding:10px 12px;font-size:11px;color:#888;margin-bottom:12px;line-height:1.5}
-.cafm-prompt strong{color:#0a2a2a;display:block;margin-bottom:4px;font-size:12px}
-.link-cafm-btn{display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:11px;font-weight:500;color:#1d9e75;background:none;border:.5px solid #5dcaa5;border-radius:4px;padding:5px 10px;cursor:pointer;font-family:'DM Sans',sans-serif}
-.link-cafm-btn:hover{background:#e1f5ee}
+.cafm-prompt strong{color:#003C60;display:block;margin-bottom:4px;font-size:12px}
+.link-cafm-btn{display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:11px;font-weight:500;color:#F36E22;background:none;border:.5px solid #17B0E6;border-radius:4px;padding:5px 10px;cursor:pointer;font-family:'Barlow',sans-serif}
+.link-cafm-btn:hover{background:#FEF0E3}
  
 /* PROPS CTA */
-.pr-cta{padding:12px 16px;background:#0a2a2a;border-top:.5px solid #1a3a2a;flex-shrink:0}
-.pr-cafm-row{display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:.5px solid #1a3a2a;padding-bottom:10px;margin-bottom:10px}
-.pr-cafm-status{font-size:10px;font-family:'DM Mono',monospace;color:#5dcaa5;opacity:.6}
-.pr-cafm-status.on{opacity:1;color:#9fe1cb}
-.pr-link-btn{font-size:10px;color:#5dcaa5;background:transparent;border:.5px solid #2a5a4a;border-radius:4px;padding:4px 9px;cursor:pointer;font-family:'DM Mono',monospace;white-space:nowrap;flex-shrink:0}
-.pr-link-btn:hover{background:#1a3a2a}
-.pr-cta-txt{font-size:11px;color:#5dcaa5;font-family:'DM Mono',monospace;margin-bottom:8px;line-height:1.4;opacity:.8}
-.pr-cta-btn{display:block;background:#1d9e75;color:#fff;border:none;border-radius:6px;padding:10px;font-size:12px;cursor:pointer;width:100%;font-family:'DM Sans',sans-serif;font-weight:500;text-align:center}
-.pr-cta-btn:hover{background:#0f6e56}
+.pr-cta{padding:12px 16px;background:#003C60;border-top:.5px solid #002952;flex-shrink:0}
+.pr-cafm-row{display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:.5px solid #002952;padding-bottom:10px;margin-bottom:10px}
+.pr-cafm-status{font-size:10px;font-family:'Barlow Condensed',sans-serif;color:#17B0E6;opacity:.6}
+.pr-cafm-status.on{opacity:1;color:#F78F20}
+.pr-link-btn{font-size:10px;color:#17B0E6;background:transparent;border:.5px solid #1a5a8a;border-radius:4px;padding:4px 9px;cursor:pointer;font-family:'Barlow Condensed',sans-serif;white-space:nowrap;flex-shrink:0}
+.pr-link-btn:hover{background:#002952}
+.pr-cta-txt{font-size:11px;color:#17B0E6;font-family:'Barlow Condensed',sans-serif;margin-bottom:8px;line-height:1.4;opacity:.8}
+.pr-cta-btn{display:block;background:#F36E22;color:#fff;border:none;border-radius:6px;padding:10px;font-size:12px;cursor:pointer;width:100%;font-family:'Barlow',sans-serif;font-weight:500;text-align:center}
+.pr-cta-btn:hover{background:#c85810}
  
 /* MODAL */
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:500;display:none;align-items:center;justify-content:center}
 .modal-overlay.open{display:flex}
 .modal-box{background:#fff;border-radius:12px;padding:24px;width:340px;max-width:90%}
-.modal-title{font-size:16px;font-weight:500;color:#0a2a2a;margin-bottom:6px}
+.modal-title{font-size:16px;font-weight:500;color:#003C60;margin-bottom:6px}
 .modal-desc{font-size:13px;color:#666;line-height:1.55;margin-bottom:18px}
-.modal-lbl{font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:5px;display:block;margin-top:10px}
+.modal-lbl{font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#888;margin-bottom:5px;display:block;margin-top:10px}
 .modal-lbl:first-of-type{margin-top:0}
-.modal-inp{width:100%;font-size:13px;padding:8px 10px;border:.5px solid #ddd;border-radius:6px;font-family:'DM Sans',sans-serif;color:#1a1a1a;background:#fff;outline:none}
-.modal-inp:focus{border-color:#1d9e75}
+.modal-inp{width:100%;font-size:13px;padding:8px 10px;border:.5px solid #ddd;border-radius:6px;font-family:'Barlow',sans-serif;color:#1a1a1a;background:#fff;outline:none}
+.modal-inp:focus{border-color:#F36E22}
 .modal-btns{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
-.modal-cancel{font-size:13px;padding:7px 14px;border:.5px solid #ddd;border-radius:6px;background:none;cursor:pointer;color:#888;font-family:'DM Sans',sans-serif}
-.modal-save{font-size:13px;padding:7px 16px;border:none;border-radius:6px;background:#1d9e75;color:#fff;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500}
-.modal-save:hover{background:#0f6e56}
+.modal-cancel{font-size:13px;padding:7px 14px;border:.5px solid #ddd;border-radius:6px;background:none;cursor:pointer;color:#888;font-family:'Barlow',sans-serif}
+.modal-save{font-size:13px;padding:7px 16px;border:none;border-radius:6px;background:#F36E22;color:#fff;cursor:pointer;font-family:'Barlow',sans-serif;font-weight:500}
+.modal-save:hover{background:#c85810}
  
 .fp-room{cursor:pointer}
 .fp-win{cursor:pointer}.fp-hit{cursor:pointer}.fp-sym{cursor:pointer}.fp-iw{cursor:pointer}
  
 @media(max-width:680px){
-  .demo-wrap{flex-direction:column;height:auto;overflow:visible}
-  .props-col{width:100%;border-left:none;border-top:.5px solid #e0ddd8;max-height:500px}
-  .plan-col{height:55vh}
+  /* ── DEMO LAYOUT: stacked, fills full screen ── */
+  .demo-wrap{
+    flex-direction:column;
+    height:calc(100dvh - 48px);
+    overflow:hidden;
+  }
+ 
+  /* ── PLAN COLUMN: fixed height at top ── */
+  .plan-col{
+    flex:0 0 auto;
+    height:42vh;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+  }
+ 
+  /* ── DEMO BAR: compact, hide subtitle ── */
+  .demo-bar{padding:7px 12px}
+  .demo-bar-sub{display:none}
+ 
+  /* ── ELEMENT CHIPS: horizontal scroll, no wrap ── */
+  .el-chips{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    padding:5px 10px;
+    gap:6px;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .el-chips::-webkit-scrollbar{display:none}
+  .el-chip-group-label{display:none}
+  .el-chip-hint{display:none}
+  .el-chip{flex-shrink:0;padding:7px 12px;font-size:12px;border-radius:20px}
+ 
+  /* ── FLOOR PLAN: scrollable, SVG stays legible ── */
+  .plan-canvas{
+    flex:1;
+    overflow:auto;
+    -webkit-overflow-scrolling:touch;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding:10px;
+  }
+  .plan-canvas svg{
+    min-width:440px;
+    max-width:none;
+    height:auto;
+    display:block;
+  }
+ 
+  /* ── PROPS PANEL: fills remaining screen height ── */
+  .props-col{
+    width:100%;
+    border-left:none;
+    border-top:.5px solid #e0ddd8;
+    flex:1;
+    min-height:0;
+    max-height:none;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  }
+ 
+  /* ── PROPS HEADER: compact ── */
+  .pr-hdr{padding:10px 14px 8px}
+  .pr-hdr-name{font-size:14px}
+ 
+  /* ── TABS: bigger tap targets ── */
+  .pr-tabs{padding:0 10px}
+  .pr-tab{padding:12px 14px;font-size:13px}
+ 
+  /* ── CONTENT PANES: scroll properly ── */
+  .pr-empty{padding:16px;font-size:12px}
+  .pr-body{flex:1;min-height:0}
+  .pr-tab-pane{flex:1;min-height:0}
+ 
+  /* ── CTA: compact, hide long text ── */
+  .pr-cta{padding:10px 14px}
+  .pr-cta-txt{display:none}
+  .pr-cafm-row{padding-bottom:8px;margin-bottom:8px}
+ 
+  /* ── INDEX: single column cards ── */
+  .s-grid{grid-template-columns:1fr;padding:12px 14px 32px}
+  .idx-hero{padding:20px 16px 12px}
+  .idx-title{font-size:19px}
+ 
+  /* ── CAFM MODAL: slide up from bottom ── */
+  .modal-overlay.open{align-items:flex-end}
+  .modal-box{
+    width:100%;
+    max-width:100%;
+    border-radius:16px 16px 0 0;
+    padding:20px 20px 32px;
+  }
 }
 </style>
 </head>
@@ -193,7 +284,7 @@ const SCHOOLS = {
 };
  
 const ELEMENTS=[
-  {key:'ext-wall',label:'External Wall',color:'#1d9e75'},
+  {key:'ext-wall',label:'External Wall',color:'#F36E22'},
   {key:'window',label:'Windows & Glazing',color:'#378add'},
   {key:'roof',label:'Roof',color:'#854f0b'},
   {key:'floor',label:'Floor Slab',color:'#5f5e5a'},
@@ -343,11 +434,11 @@ const RS={classroom:'#5a8ab8',hall:'#4a8a5a',admin:'#8a7a4a',toilet:'#4a7a8a',co
  
 function tx(x,y,text,size=11,bold=false,col='#1a2a1a'){
   const lines=text.split('\n'),lh=size*1.35,sy=y-(lines.length-1)*lh/2;
-  return lines.map((l,i)=>`<text x="${x}" y="${sy+i*lh}" text-anchor="middle" dominant-baseline="middle" font-size="${size}" font-family="'DM Sans',sans-serif" fill="${col}" font-weight="${bold?'500':'400'}">${l}</text>`).join('');
+  return lines.map((l,i)=>`<text x="${x}" y="${sy+i*lh}" text-anchor="middle" dominant-baseline="middle" font-size="${size}" font-family="'Barlow',sans-serif" fill="${col}" font-weight="${bold?'500':'400'}">${l}</text>`).join('');
 }
  
 function refLabel(x,y,id,active){
-  return`<text x="${x}" y="${y}" font-size="7" font-family="'DM Mono',monospace" fill="${active?'#0f6e56':'#bbb'}">${id}</text>`;
+  return`<text x="${x}" y="${y}" font-size="7" font-family="'Barlow Condensed',sans-serif" fill="${active?'#c85810':'#bbb'}">${id}</text>`;
 }
  
 function planSVG(school,active){
@@ -372,7 +463,7 @@ function primaryPlan(school,active){
   let ax=bX;
   adm.forEach((s,i)=>{
     const act=aSp(s.id);
-    r+=`<rect x="${ax}" y="${bY}" width="${adW[i]}" height="${adminH}" fill="${RC[s.t]}" stroke="${act?'#1d9e75':RS[s.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${s.id}')"/>`;
+    r+=`<rect x="${ax}" y="${bY}" width="${adW[i]}" height="${adminH}" fill="${RC[s.t]}" stroke="${act?'#F36E22':RS[s.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${s.id}')"/>`;
     t+=tx(ax+adW[i]/2,bY+adminH/2,s.l,10);
     t+=refLabel(ax+4,bY+9,s.id,act);
     if(i>0){const lc=aEl('int-wall')?'#534ab7':'#8a8070';wl+=`<line x1="${ax}" y1="${bY}" x2="${ax}" y2="${bY+adminH}" stroke="${lc}" stroke-width="${aEl('int-wall')?2.5:1}" class="fp-iw" onclick="selEl('int-wall')"/>`;}
@@ -381,7 +472,7 @@ function primaryPlan(school,active){
  
   // Hall
   const hallId='GF-005';const hallAct=aSp(hallId);
-  r+=`<rect x="${bX}" y="${bY+adminH}" width="${hallW}" height="${bH-adminH}" fill="${RC.hall}" stroke="${hallAct?'#1d9e75':RS.hall}" stroke-width="${hallAct?2.5:.6}" class="fp-room" onclick="selSpace('${hallId}')"/>`;
+  r+=`<rect x="${bX}" y="${bY+adminH}" width="${hallW}" height="${bH-adminH}" fill="${RC.hall}" stroke="${hallAct?'#F36E22':RS.hall}" stroke-width="${hallAct?2.5:.6}" class="fp-room" onclick="selSpace('${hallId}')"/>`;
   t+=tx(bX+hallW/2,bY+adminH+(bH-adminH)/2,'School\nHall',12,true,'#1a3a1a');
   t+=refLabel(bX+4,bY+adminH+10,hallId,hallAct);
  
@@ -401,7 +492,7 @@ function primaryPlan(school,active){
     const cx=classX+col*classW,cy=bY+adminH+row*classH;
     const spId='GF-'+String(7+i).padStart(3,'0');
     const act=aSp(spId);
-    r+=`<rect x="${cx}" y="${cy}" width="${classW}" height="${classH}" fill="${RC.classroom}" stroke="${act?'#1d9e75':RS.classroom}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${spId}')"/>`;
+    r+=`<rect x="${cx}" y="${cy}" width="${classW}" height="${classH}" fill="${RC.classroom}" stroke="${act?'#F36E22':RS.classroom}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${spId}')"/>`;
     t+=tx(cx+classW/2,cy+classH/2,'Class '+(i+1),10);
     t+=refLabel(cx+4,cy+9,spId,act);
     if(col===1)wl+=`<line x1="${cx}" y1="${cy}" x2="${cx}" y2="${cy+classH}" ${iwAttr}/>`;
@@ -409,7 +500,7 @@ function primaryPlan(school,active){
   }
  
   // Outer wall
-  const owC=aEl('ext-wall')?'#1d9e75':'#1a3a2a',owW=aEl('ext-wall')?4:3;
+  const owC=aEl('ext-wall')?'#F36E22':'#002952',owW=aEl('ext-wall')?4:3;
   r+=`<rect x="${bX}" y="${bY}" width="${bW}" height="${bH}" fill="none" stroke="${owC}" stroke-width="${owW}" class="fp-hit" onclick="selEl('ext-wall')"/>`;
  
   // Windows
@@ -446,7 +537,7 @@ function secondaryPlan(school,active){
   let ax=bX;
   adm.forEach((s,i)=>{
     const act=aSp(s.id);
-    r+=`<rect x="${ax}" y="${bY}" width="${adW[i]}" height="${recH}" fill="${RC[s.t]}" stroke="${act?'#1d9e75':RS[s.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${s.id}')"/>`;
+    r+=`<rect x="${ax}" y="${bY}" width="${adW[i]}" height="${recH}" fill="${RC[s.t]}" stroke="${act?'#F36E22':RS[s.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${s.id}')"/>`;
     t+=tx(ax+adW[i]/2,bY+recH/2,s.l,10);
     t+=refLabel(ax+4,bY+9,s.id,act);
     if(i>0){const lc=aEl('int-wall')?'#534ab7':'#8a8070';wl+=`<line x1="${ax}" y1="${bY}" x2="${ax}" y2="${bY+recH}" stroke="${lc}" stroke-width="${aEl('int-wall')?2.5:1}" class="fp-iw" onclick="selEl('int-wall')"/>`;}
@@ -455,7 +546,7 @@ function secondaryPlan(school,active){
  
   // Main corridor
   const corrId='GF-005';const corrAct=aSp(corrId);
-  r+=`<rect x="${bX}" y="${mCY}" width="${bW}" height="${mCH}" fill="${RC.corridor}" stroke="${corrAct?'#1d9e75':RS.corridor}" stroke-width="${corrAct?2:.6}" class="fp-room" onclick="selSpace('${corrId}')"/>`;
+  r+=`<rect x="${bX}" y="${mCY}" width="${bW}" height="${mCH}" fill="${RC.corridor}" stroke="${corrAct?'#F36E22':RS.corridor}" stroke-width="${corrAct?2:.6}" class="fp-room" onclick="selSpace('${corrId}')"/>`;
   t+=tx(bX+bW/2,mCY+mCH/2,'MAIN CORRIDOR — GROUND FLOOR',9,false,'#666');
   t+=refLabel(bX+4,mCY+9,corrId,corrAct);
  
@@ -472,7 +563,7 @@ function secondaryPlan(school,active){
     const ilc=aEl('int-wall')?'#534ab7':'#6a8a6a',ilw=aEl('int-wall')?2.5:0.8;
     row.forEach((rm,i)=>{
       const act=aSp(rm.id);
-      r+=`<rect x="${wx}" y="${wy}" width="${rm.w}" height="${wh}" fill="${RC[rm.t]}" stroke="${act?'#1d9e75':RS[rm.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${rm.id}')"/>`;
+      r+=`<rect x="${wx}" y="${wy}" width="${rm.w}" height="${wh}" fill="${RC[rm.t]}" stroke="${act?'#F36E22':RS[rm.t]}" stroke-width="${act?2.5:.6}" class="fp-room" onclick="selSpace('${rm.id}')"/>`;
       t+=tx(wx+rm.w/2,wy+wh/2,rm.l,10);
       t+=refLabel(wx+4,wy+9,rm.id,act);
       if(i>0)wl+=`<line x1="${wx}" y1="${wy}" x2="${wx}" y2="${wy+wh}" stroke="${ilc}" stroke-width="${ilw}" class="fp-iw" onclick="selEl('int-wall')"/>`;
@@ -484,9 +575,9 @@ function secondaryPlan(school,active){
   const ilc2=aEl('int-wall')?'#534ab7':'#6a8a6a',ilw2=aEl('int-wall')?2.5:1.2;
   wl+=`<line x1="${bX}" y1="${bY+recH}" x2="${bX+bW}" y2="${bY+recH}" stroke="${ilc2}" stroke-width="${ilw2}" class="fp-iw" onclick="selEl('int-wall')"/>`;
   wl+=`<line x1="${bX}" y1="${wingY}" x2="${bX+bW}" y2="${wingY}" stroke="${ilc2}" stroke-width="${ilw2}" class="fp-iw" onclick="selEl('int-wall')"/>`;
-  t+=`<text x="${bX+bW-6}" y="${mCY+mCH-5}" text-anchor="end" font-size="9" font-family="'DM Mono',monospace" fill="#888">${school.floors} STOREYS TOTAL</text>`;
+  t+=`<text x="${bX+bW-6}" y="${mCY+mCH-5}" text-anchor="end" font-size="9" font-family="'Barlow Condensed',sans-serif" fill="#888">${school.floors} STOREYS TOTAL</text>`;
  
-  const owC=aEl('ext-wall')?'#1d9e75':'#1a3a2a',owW=aEl('ext-wall')?4:3;
+  const owC=aEl('ext-wall')?'#F36E22':'#002952',owW=aEl('ext-wall')?4:3;
   r+=`<rect x="${bX}" y="${bY}" width="${bW}" height="${bH}" fill="none" stroke="${owC}" stroke-width="${owW}" class="fp-hit" onclick="selEl('ext-wall')"/>`;
  
   const wC=aEl('window')?'#378add':'#7ab8d4',wS=aEl('window')?'#0a4a8a':'#4a8aa8';
@@ -513,31 +604,31 @@ function symTags(aEl,bX,bY,bW,bH,hallW,corrW,adminH){
   return`
     <g class="fp-sym" onclick="selEl('roof')" transform="translate(${bX+bW-74},${bY+8})">
       <rect width="70" height="22" rx="4" fill="${rBg}" stroke="${aEl('roof')?'#633806':'#c8b888'}" stroke-width=".8"/>
-      <text x="35" y="14.5" text-anchor="middle" font-size="9" font-family="'DM Mono',monospace" fill="${rTx}" letter-spacing=".5">▲ ROOF</text>
+      <text x="35" y="14.5" text-anchor="middle" font-size="9" font-family="'Barlow Condensed',sans-serif" fill="${rTx}" letter-spacing=".5">▲ ROOF</text>
     </g>
     <g class="fp-sym" onclick="selEl('floor')" transform="translate(${bX+8},${bY+adminH+8})">
       <rect width="52" height="20" rx="3" fill="${fBg}" stroke="${aEl('floor')?'#2c2c2a':'#b8b0a8'}" stroke-width=".7"/>
-      <text x="26" y="13.5" text-anchor="middle" font-size="8.5" font-family="'DM Mono',monospace" fill="${fTx}">FLOOR</text>
+      <text x="26" y="13.5" text-anchor="middle" font-size="8.5" font-family="'Barlow Condensed',sans-serif" fill="${fTx}">FLOOR</text>
     </g>
     <g class="fp-sym" onclick="selEl('heating')" transform="translate(${bX+8},${bY+bH-32})">
       <rect width="64" height="22" rx="4" fill="${hBg}" stroke="${aEl('heating')?'#993c1d':'#d88858'}" stroke-width=".8"/>
-      <text x="32" y="14.5" text-anchor="middle" font-size="9" font-family="'DM Mono',monospace" fill="${hTx}" letter-spacing=".2">≋ HVAC</text>
+      <text x="32" y="14.5" text-anchor="middle" font-size="9" font-family="'Barlow Condensed',sans-serif" fill="${hTx}" letter-spacing=".2">≋ HVAC</text>
     </g>`;
 }
  
 function annotations(bX,bY,bW,bH,scale){
   return`
-    <text x="${bX}" y="${bY-11}" font-size="9" font-family="'DM Mono',monospace" fill="#999" letter-spacing=".5">GROUND FLOOR PLAN — SCHEMATIC (illustrative, not to scale)</text>
+    <text x="${bX}" y="${bY-11}" font-size="9" font-family="'Barlow Condensed',sans-serif" fill="#999" letter-spacing=".5">GROUND FLOOR PLAN — SCHEMATIC (illustrative, not to scale)</text>
     <g transform="translate(${bX},${bY+bH+16})">
       <circle cx="9" cy="9" r="8" fill="none" stroke="#bbb" stroke-width=".8"/>
-      <text x="9" y="13" text-anchor="middle" font-size="9" font-family="'DM Mono',monospace" fill="#999">N</text>
+      <text x="9" y="13" text-anchor="middle" font-size="9" font-family="'Barlow Condensed',sans-serif" fill="#999">N</text>
       <line x1="9" y1="2" x2="9" y2="7" stroke="#999" stroke-width="1.5"/>
     </g>
     <g transform="translate(${bX+30},${bY+bH+14})">
       <line x1="0" y1="10" x2="50" y2="10" stroke="#bbb" stroke-width="1"/>
       <line x1="0" y1="7" x2="0" y2="13" stroke="#bbb" stroke-width="1"/>
       <line x1="50" y1="7" x2="50" y2="13" stroke="#bbb" stroke-width="1"/>
-      <text x="25" y="25" text-anchor="middle" font-size="8.5" font-family="'DM Mono',monospace" fill="#999">${scale}</text>
+      <text x="25" y="25" text-anchor="middle" font-size="8.5" font-family="'Barlow Condensed',sans-serif" fill="#999">${scale}</text>
     </g>`;
 }
  
@@ -619,7 +710,7 @@ function renderAssetsPane(spaceId){
   pane.innerHTML=`
     ${cafmPrompt()}
     ${cafmBadge(spaceId+'/assets')}
-    <div style="font-size:9px;font-family:'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#aaa;margin-bottom:10px">${sp.assets.length} registered assets</div>
+    <div style="font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#aaa;margin-bottom:10px">${sp.assets.length} registered assets</div>
     ${sp.assets.map(a=>`<div class="ast-row">
       <div>
         <div class="ast-name">${a.name}</div>
@@ -702,7 +793,7 @@ function renderIndex(){
   document.getElementById('root').innerHTML=`
     <div class="idx-hero">
       <div class="idx-tag">BSI Interactive School Explorer</div>
-      <h1 class="idx-title">Your school, in spatial intelligence</h1>
+      <h1 class="idx-title">Your school, in a digital database</h1>
       <p class="idx-sub">Select your school type below — or scan the QR code on your Lego kit — to explore a clickable floor plan showing live condition data, thermal performance, and recommended actions for every building element. Click any room to see space info and asset registers.</p>
     </div>
     <div class="s-grid">
@@ -737,7 +828,7 @@ function renderIndex(){
   setTimeout(()=>{
     Object.values(SCHOOLS).forEach(s=>{
       const c=document.getElementById('qr-'+s.key);
-      if(c&&typeof QRCode!=='undefined'){QRCode.toCanvas(c,BASE+'?school='+s.key,{width:72,margin:1,color:{dark:'#0a2a2a',light:'#ffffff'}}).catch(()=>{});}
+      if(c&&typeof QRCode!=='undefined'){QRCode.toCanvas(c,BASE+'?school='+s.key,{width:72,margin:1,color:{dark:'#003C60',light:'#ffffff'}}).catch(()=>{});}
     });
   },150);
 }
@@ -785,7 +876,7 @@ function renderDemo(key){
             <span class="pr-cafm-status" id="pr-cafm-status">No CAFM linked</span>
             <button class="pr-link-btn" id="pr-link-btn" onclick="openCAFMModal()">Link your CAFM</button>
           </div>
-          <div class="pr-cta-txt">Want to see what YOUR real school looks like in spatial intelligence? We offer a free initial survey &amp; report.</div>
+          <div class="pr-cta-txt">Want to see what YOUR real school looks like in a digital database? We offer a free initial survey &amp; report.</div>
           <button class="pr-cta-btn" onclick="window.open('https://buildingspatialintelligence.co.uk','_blank')">Book a free consultation →</button>
         </div>
       </div>
